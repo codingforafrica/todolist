@@ -1,6 +1,6 @@
 class TasksController < ApplicationController
   before_action :authenticate_user!
-  before_action :set_task, only: [:show, :edit, :update, :destroy]
+  before_action :set_task, only: [:show, :edit, :update, :destroy, :change]
 
   # GET /tasks
   # GET /tasks.json
@@ -45,7 +45,7 @@ class TasksController < ApplicationController
   def update
     respond_to do |format|
       if @task.update(task_params)
-        format.html { redirect_to @task, notice: 'Tâche modifié avec succès.' }
+        format.html { redirect_to @task, notice: 'Tâche modifiée avec succès.' }
         format.json { render :show, status: :ok, location: @task }
       else
         format.html { render :edit }
@@ -59,8 +59,16 @@ class TasksController < ApplicationController
   def destroy
     @task.destroy
     respond_to do |format|
-      format.html { redirect_to tasks_url, notice: 'Tâche supprimé avec succès.' }
+      format.html { redirect_to tasks_url, notice: 'Tâche supprimée avec succès.' }
       format.json { head :no_content }
+    end
+  end
+
+  # Controller for Tasks State
+  def change
+    @task.update_attributes(state: params[:state])
+    respond_to do |format|
+      format.html {redirect_to tasks_path, notice: "Tâche modifiée avec succès."}
     end
   end
 

@@ -7,7 +7,7 @@
     <tr>
       <th>Tâches À Faire:</th>
       <th>Statut ou State:</th>
-      <th colspan="3"></th>
+      <th colspan="4"></th>
     </tr>
   </thead>
 
@@ -19,6 +19,7 @@
         <td><%= link_to 'Montrer', task %></td>
         <td><%= link_to 'Editer', edit_task_path(task) %></td>
         <td><%= link_to 'Supprimer', task, method: :delete, data: { confirm: 'Confirmer Suppression?' } %></td>
+        <td><%= link_to "Exécuter", change_task_path(task, state: "en_exécution"), method: :put %></td>
       </tr>
     <% end %>
   </tbody>
@@ -33,7 +34,7 @@
   <tr>
     <th>Tâches À Faire:</th>
     <th>Statut ou State:</th>
-    <th colspan="3"></th>
+    <th colspan="4"></th>
   </tr>
   </thead>
 
@@ -45,6 +46,7 @@
         <td><%= link_to 'Montrer', task %></td>
         <td><%= link_to 'Editer', edit_task_path(task) %></td>
         <td><%= link_to 'Supprimer', task, method: :delete, data: { confirm: 'Confirmer Suppression?' } %></td>
+        <td><%= link_to "Terminer", change_task_path(task, state: "en_fin"), method: :put %></td>
       </tr>
   <% end %>
   </tbody>
