@@ -1,0 +1,22 @@
+<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put, class: "form-signin" }) do |f| %>
+  <%= f.error_notification %>
+
+    <h2 class="text-center">Edit <%= resource_name.to_s.humanize %></h2>
+    <%= f.input :email, required: true, autofocus: true, label: false, placeholder: "Email", input_html: {class: "form-control"} %>
+
+    <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+      <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
+    <% end %>
+
+    <%= f.input :password, autocomplete: "off", hint: "Ignorer si vous ne voulez pas le modifier", required: false, label: false, placeholder: "Nouveau Mot de Passe", input_html: {class: "form-control"} %>
+    <%= f.input :password_confirmation, required: false, label: false, placeholder: "Confirmer Nouveau Mot de Passe", input_html: {class: "form-control"} %>
+    <%= f.input :current_password, required: true, label: false, placeholder: "Mot de Passe Actuel", input_html: {class: "form-control"} %>
+    <%= f.button :submit, "Mise à jour", class: "btn btn-primary btn-block" %>
+
+<% end %>
+
+<h3 class="text-center">Suppression de Compte</h3>
+
+<p class="text-center">Voulez-vous vraiment le faire? <%= link_to "Supprimer mon Compte", registration_path(resource_name), data: { confirm: "Etes-vous Sure?" }, method: :delete %></p>
+
+<%= link_to "Retour", :back %>
