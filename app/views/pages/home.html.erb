@@ -4,6 +4,7 @@
   <% if current_user %>
     <p>Bienvenue sur votre Platforme de Gestion  des Taches</p>
     <%= link_to "<i class='fa fa-pencil-square-o'></i> Nouvelle Tâches".html_safe, new_task_path, class: "btn btn-success btn-lg" %>
+    <%= link_to "<i class='fa fa-list-ol'></i> Liste des Tâches".html_safe, tasks_path, class: "btn btn-primary btn-lg" %>
   <% else %>
       <p>Plannificateur et Gestion  des Taches</p>
       <%= link_to "<i class='fa fa-pencil-square-o'></i> Sign up".html_safe, new_user_registration_path, class: "btn btn-success btn-lg" %>

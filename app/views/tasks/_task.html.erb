@@ -1,0 +1,35 @@
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <%= link_to edit_task_path(task) do %>
+        Tâches Created <%= time_ago_in_words(task.created_at) %> ago
+    <% end %>
+  </div>
+
+  <div class="panel-body">
+    <%= task.content %>
+  </div>
+
+  <div class="panel-footer text-center">
+    <% if task.state == "en_exécution" || task.state == "en_fin" || task.state == "en_début" %>
+        <div>
+          <%= link_to "<i class='fa fa-eye'></i> Montrer".html_safe, task, class: "btn btn-info" %>
+          <%= link_to "<i class='fa fa-pencil-square-o'></i> Editer".html_safe, edit_task_path(task), class: "btn btn-primary" %>
+          <%= link_to "<i class='fa fa-times'></i> Supprimer".html_safe, task, method: :delete, data: { confirm: 'Confirmer Suppression?' }, class: "btn btn-danger" %>
+          <% if task.state == "en_exécution" %>
+            <div class="btn-group btn-group-justified">
+                <%= link_to "<i class='fa fa-arrow-left'></i> Annuler Exécution".html_safe, change_task_path(task, state: "en_début"), method: :put, class: "btn btn-warning" %>
+                <%= link_to "Terminer Exécution <i class='fa fa-arrow-right'></i>".html_safe, change_task_path(task, state: "en_fin"), method: :put, class: "btn btn-success" %></td>
+            </div>
+          <% elsif task.state == "en_début" %>
+            <div class="btn-group btn-group-justified">
+               <%= link_to "Exécuter <i class='fa fa-arrow-right'></i>".html_safe, change_task_path(task, state: "en_exécution"), class: "btn btn-success", method: :put %>
+            </div>
+          <% else %>
+            <div class="btn-group btn-group-justified">
+               <%= link_to "<i class='fa fa-arrow-left'></i> Re-exécuter".html_safe, change_task_path(task, state: "en_exécution"), class: "btn btn-default", method: :put %>
+            </div>
+          <% end %>
+        </div>
+    <% end %>
+  </div>
+</div>
