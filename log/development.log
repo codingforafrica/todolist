@@ -10839,3 +10839,721 @@ Processing by TasksController#index as HTML
   Rendered tasks/index.html.erb within layouts/application (1.0ms)
   Rendered layouts/_navbar.html.erb (0.9ms)
 Completed 200 OK in 290ms (Views: 289.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2015-05-25 06:21:07 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#new as HTML
+  Rendered tasks/_form.html.erb (156.3ms)
+  Rendered tasks/new.html.erb within layouts/application (171.9ms)
+  Rendered layouts/_navbar.html.erb (6.9ms)
+Completed 200 OK in 855ms (Views: 823.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/font-awesome.self-2d17540bab3759939e910ca38a695f014e0c777ded3ad7a01c4658b9d3fc980d.css?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-5d0926785049650f548100e859a8846b4a915ce5593e7d2064211cf11b8cf211.css?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/devise.self-07c0e4e38c880e96593df3b8818a36409fe9ddbe0c318ca3ad19caa6a3ffb513.css?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-25 06:21:09 +0000
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 06:21:20 +0000
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.0ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 347ms (Views: 331.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/show%27" for 127.0.0.1 at 2015-05-25 06:22:03 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"show'"}
+  [1m[36mTask Load (15.6ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 31ms
+
+ActiveRecord::RecordNotFound (Couldn't find Task with 'id'=show'):
+  app/controllers/tasks_controller.rb:67:in `set_task'
+
+
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.6ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.3ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (31.2ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (15.6ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (93.8ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2015-05-25 06:22:08 +0000
+
+ActionController::RoutingError (No route matches [GET] "/show"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.6ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (15.6ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.5ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (238.6ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (31.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (74.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 06:22:17 +0000
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.0ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 311ms (Views: 311.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/show" for 127.0.0.1 at 2015-05-25 06:22:42 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mTask Load (0.0ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 0]]
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Task with 'id'=show):
+  app/controllers/tasks_controller.rb:67:in `set_task'
+
+
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.2ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (31.3ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (15.6ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (78.2ms)
+
+
+Started GET "/tasks/edit" for 127.0.0.1 at 2015-05-25 06:22:49 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[35mTask Load (0.0ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 0ms
+
+ActiveRecord::RecordNotFound (Couldn't find Task with 'id'=edit):
+  app/controllers/tasks_controller.rb:67:in `set_task'
+
+
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.9ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (31.3ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Bitnami/rubystack-2.0.0-26/ruby/lib/ruby/gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (78.1ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 06:22:56 +0000
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.0ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 303ms (Views: 301.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2015-05-25 06:23:02 +0000
+Processing by TasksController#new as HTML
+  Rendered tasks/_form.html.erb (0.0ms)
+  Rendered tasks/new.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_navbar.html.erb (2.0ms)
+Completed 200 OK in 349ms (Views: 348.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2015-05-25 06:23:13 +0000
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Fu1228K5prizGUsEqCXWnLgsfPacnjHrcPCaata9/4iG9PAToj5ULvmNj8nJiam/WoWyPXLAaWAw57IWOuHicw==", "task"=>{"content"=>"Ma Tache du Jour"}, "commit"=>"Create Task"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "tasks" ("content", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["content", "Ma Tache du Jour"], ["created_at", "2015-05-25 06:23:13.536364"], ["updated_at", "2015-05-25 06:23:13.536364"]]
+  [1m[35m (15.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/tasks/5
+Completed 302 Found in 31ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/tasks/5" for 127.0.0.1 at 2015-05-25 06:23:13 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTask Load (0.0ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered tasks/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 324ms (Views: 322.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/5" for 127.0.0.1 at 2015-05-25 07:11:26 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mTask Load (0.0ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered tasks/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 376ms (Views: 360.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-5d0926785049650f548100e859a8846b4a915ce5593e7d2064211cf11b8cf211.css?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/devise.self-07c0e4e38c880e96593df3b8818a36409fe9ddbe0c318ca3ad19caa6a3ffb513.css?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/font-awesome.self-2d17540bab3759939e910ca38a695f014e0c777ded3ad7a01c4658b9d3fc980d.css?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 127.0.0.1 at 2015-05-25 07:11:27 +0000
+
+
+Started GET "/tasks/5/edit" for 127.0.0.1 at 2015-05-25 07:11:30 +0000
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mTask Load (0.0ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered tasks/_form.html.erb (0.0ms)
+  Rendered tasks/edit.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 363ms (Views: 363.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:11:37 +0000
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.0ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.9ms)
+Completed 200 OK in 319ms (Views: 302.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/tasks/5" for 127.0.0.1 at 2015-05-25 07:11:41 +0000
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KQPX5jxmReZCZ47xLdFD34LCM1ss02Nwxzs2SvTFX6a5GlEuXOG3cAjzSjxMfTz8YGv9kMKNO/uHLB42GJlCXQ==", "id"=>"5"}
+  [1m[36mTask Load (0.0ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 5]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 31ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:11:41 +0000
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.0ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 311ms (Views: 310.0ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddUserIdToTasks (20150525071440)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mALTER TABLE "tasks" ADD "user_id" integer[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150525071440"]]
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:41:12 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as HTML
+Completed 401 Unauthorized in 31ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-25 07:41:12 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (187.0ms)
+  Rendered layouts/_navbar.html.erb (1.6ms)
+Completed 200 OK in 923ms (Views: 900.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-25 07:41:13 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-5d0926785049650f548100e859a8846b4a915ce5593e7d2064211cf11b8cf211.css?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/devise.self-07c0e4e38c880e96593df3b8818a36409fe9ddbe0c318ca3ad19caa6a3ffb513.css?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/assets/font-awesome.self-2d17540bab3759939e910ca38a695f014e0c777ded3ad7a01c4658b9d3fc980d.css?body=1" for 127.0.0.1 at 2015-05-25 07:41:14 +0000
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:41:26 +0000
+Processing by TasksController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-25 07:41:26 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 354ms (Views: 354.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-25 07:41:33 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 350ms (Views: 350.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:41:43 +0000
+Processing by TasksController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-25 07:41:43 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (36.9ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 371ms (Views: 370.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-25 07:41:53 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y3a/FBATdPT77I+4IshBibcw52GIQxneYwgCOELGLcVbbznccJSGYrF4S3VDZD6qVZkpqmYdQVUjHypErpowPg==", "user"=>{"email"=>"arnaudsomet@yahoo.fr", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "arnaudsomet@yahoo.fr"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2015-05-25 05:10:33.718524"], ["current_sign_in_at", "2015-05-25 07:41:53.746527"], ["sign_in_count", 7], ["updated_at", "2015-05-25 07:41:53.748522"], ["id", 1]]
+  [1m[36m (10.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 147ms (ActiveRecord: 14.9ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:41:53 +0000
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (1.0ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered tasks/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 373ms (Views: 335.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2015-05-25 07:42:46 +0000
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered tasks/_form.html.erb (15.6ms)
+  Rendered tasks/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 321ms (Views: 321.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2015-05-25 07:43:03 +0000
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RqYkyIUjgRYcSInBTp8amQuPkvodabKbltHNtqpIAbmMh0/bw0XBNao4zWiS6QoDDVYxzhr3Heto2fdSycphKg==", "task"=>{"content"=>"Certificat Medicale"}, "commit"=>"Create Task"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "tasks" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "Certificat Medicale"], ["user_id", 1], ["created_at", "2015-05-25 07:43:03.195049"], ["updated_at", "2015-05-25 07:43:03.195049"]]
+  [1m[35m (15.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/tasks/6
+Completed 302 Found in 63ms (ActiveRecord: 15.7ms)
+
+
+Started GET "/tasks/6" for 127.0.0.1 at 2015-05-25 07:43:03 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.0ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered tasks/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 372ms (Views: 356.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:43:07 +0000
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.0ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = ?  [["user_id", 1]]
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 364ms (Views: 364.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2015-05-25 07:43:11 +0000
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered tasks/_form.html.erb (0.0ms)
+  Rendered tasks/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 391ms (Views: 390.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2015-05-25 07:43:18 +0000
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qb4m6o+bkwwSjvERY5U6d+62qJO2PxXIJBb6fMq+fWljn035yf3TL6T+tbi/4yrt6G8Lp7GhurjaHsCYqTwd+g==", "task"=>{"content"=>"Shopping"}, "commit"=>"Create Task"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "tasks" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["content", "Shopping"], ["user_id", 1], ["created_at", "2015-05-25 07:43:18.476277"], ["updated_at", "2015-05-25 07:43:18.476277"]]
+  [1m[36m (7.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tasks/7
+Completed 302 Found in 44ms (ActiveRecord: 7.8ms)
+
+
+Started GET "/tasks/7" for 127.0.0.1 at 2015-05-25 07:43:18 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.0ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 7]]
+  Rendered tasks/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 318ms (Views: 314.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:43:21 +0000
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mTask Load (0.0ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = ?[0m  [["user_id", 1]]
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (1.1ms)
+Completed 200 OK in 336ms (Views: 335.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2015-05-25 07:43:28 +0000
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered tasks/_form.html.erb (0.0ms)
+  Rendered tasks/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 284ms (Views: 283.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2015-05-25 07:43:36 +0000
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vzDp9K0kEnKhAPcRxJXYEvDyvSL4FtjbOPIiobb7TCd1EYLn60JSURdws7gY48iI9iseFv+Id6vG+hhF1XkstA==", "task"=>{"content"=>"Apprendre Ruby"}, "commit"=>"Create Task"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "tasks" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "Apprendre Ruby"], ["user_id", 1], ["created_at", "2015-05-25 07:43:36.913872"], ["updated_at", "2015-05-25 07:43:36.913872"]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/tasks/8
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/8" for 127.0.0.1 at 2015-05-25 07:43:36 +0000
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.0ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 8]]
+  Rendered tasks/show.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (1.0ms)
+Completed 200 OK in 313ms (Views: 310.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:43:39 +0000
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mTask Load (0.0ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = ?  [["user_id", 1]]
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 336ms (Views: 335.6ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-05-25 07:43:46 +0000
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+6KeDwN1lXrAKoVsSEAHCIWZYm4CV0w/ca1Hvie/OCsxg/UcRRPVWXZawcWUNheSg0DBWgXJ40+PpX1aRD1YuA=="}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-25 07:43:46 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_navbar.html.erb (1.8ms)
+Completed 200 OK in 296ms (Views: 295.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2015-05-25 07:44:00 +0000
+Processing by TasksController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-25 07:44:00 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.5ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 330ms (Views: 329.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-25 07:44:06 +0000
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 314ms (Views: 314.3ms | ActiveRecord: 0.0ms)
