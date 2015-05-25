@@ -1,6 +1,12 @@
 <div class="jumbotron">
   <h1><i class="fa fa-shirtsinbulk"></i>ToDoList</h1>
-  <p>Plannificateur et Gestion  des Taches</p>
-  <%= link_to "<i class='fa fa-pencil-square-o'></i> Sign up".html_safe, new_user_registration_path, class: "btn btn-success btn-lg" %>
+
+  <% if current_user %>
+    <p>Bienvenue sur votre Platforme de Gestion  des Taches</p>
+    <%= link_to "<i class='fa fa-pencil-square-o'></i> Nouvelle Tâches".html_safe, new_task_path, class: "btn btn-success btn-lg" %>
+  <% else %>
+      <p>Plannificateur et Gestion  des Taches</p>
+      <%= link_to "<i class='fa fa-pencil-square-o'></i> Sign up".html_safe, new_user_registration_path, class: "btn btn-success btn-lg" %>
+  <% end %>
 
 </div>
