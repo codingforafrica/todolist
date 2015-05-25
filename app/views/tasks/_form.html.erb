@@ -1,12 +1,7 @@
-<%= simple_form_for(@task) do |f| %>
+<%= simple_form_for(@task, html: {class: "form-signin"}) do |f| %>
   <%= f.error_notification %>
 
-  <div class="form-inputs">
-    <%= f.input :content %>
-    <%= f.input :state %>
-  </div>
+    <%= f.input :content, required: true, autofocus: true, label: false, placeholder: "Saisissez Votre Nouvelle Tâche...", input_html: {class: "form-control"} %>
+    <%= f.button :submit, class: "btn btn-success btn-block" %>
 
-  <div class="form-actions">
-    <%= f.button :submit %>
-  </div>
 <% end %>
