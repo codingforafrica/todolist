@@ -30,6 +30,8 @@ gem "font-awesome-rails"
 gem 'simple_form'
 # Devise Authentication bundle
 gem 'devise'
+# Transform Media Links into Media Preview
+gem "auto_html"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
