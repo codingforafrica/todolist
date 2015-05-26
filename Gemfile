@@ -30,7 +30,7 @@ gem 'simple_form'
 # Devise Authentication bundle
 gem 'devise'
 # Transform Media Links into Media Preview
-gem "auto_html"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -54,6 +54,7 @@ end
 group :production do
   gem 'rails_12factor'
   gem 'pg'
+  gem "auto_html"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
