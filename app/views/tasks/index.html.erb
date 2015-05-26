@@ -1,16 +1,16 @@
 <p id="notice"><%= notice %></p>
 
 <div class="row">
-  <div class="col-md-4"><h1 class="text-center">Liste des Tâches</h1>
+  <div class="col-md-4"><h1 class="text-center alert label-primary">Liste des Tâches</h1>
     <%= render @to_do %>
   </div>
-  <div class="col-md-4"><h1 class="text-center">Tâches En Execution</h1>
+  <div class="col-md-4"><h1 class="text-center alert label-warning">En Execution...</h1>
     <%= render @to_doing %>
   </div>
-  <div class="col-md-4"><h1 class="text-center">Tâches Accomplies</h1>
+  <div class="col-md-4"><h1 class="text-center alert label-success">Tâches Accomplies</h1>
     <%= render @to_done %>
   </div>
 </div>
 
 <br>
-<%= link_to 'Nouvelle Tâche', new_task_path %>
+<%= link_to "<i class='fa fa-file-text'></i> Nouvelle Tâche".html_safe, new_task_path %>
