@@ -33120,3 +33120,252 @@ Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b
 
 
 Started GET "/assets/todolist-09f1f3a0af70a865b59c83b67cf0a8901b904e3623eaac3a39c872359be8645e.jpg" for 127.0.0.1 at 2015-05-26 03:55:40 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 03:57:52 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navbar.html.erb (1.1ms)
+Completed 200 OK in 787ms (Views: 763.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/styles" for 127.0.0.1 at 2015-05-26 03:57:53 +0000
+
+
+Started GET "/support" for 127.0.0.1 at 2015-05-26 04:51:52 +0000
+Processing by PagesController#support as HTML
+  Rendered pages/support.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 281ms (Views: 281.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-26 04:51:57 +0000
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 313ms (Views: 312.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-05-26 04:52:01 +0000
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 297ms (Views: 281.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/support" for 127.0.0.1 at 2015-05-26 04:52:05 +0000
+Processing by PagesController#support as HTML
+  Rendered pages/support.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 297ms (Views: 281.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-26 04:52:07 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (203.1ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 516ms (Views: 499.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-26 04:52:16 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.6ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 328.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/font-awesome.self-2d17540bab3759939e910ca38a695f014e0c777ded3ad7a01c4658b9d3fc980d.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/application.self-145ee8be8055710573dccbd10caa16d5ef7278d1bb2a52a58b4947174aed99c0.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-5d0926785049650f548100e859a8846b4a915ce5593e7d2064211cf11b8cf211.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/styles" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/devise.self-07c0e4e38c880e96593df3b8818a36409fe9ddbe0c318ca3ad19caa6a3ffb513.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/styles.self-85e108089ea20d079fddee7df2f010caf92e0c89701a1e44f325c4cdcd0bc32d.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/assets/todolist-09f1f3a0af70a865b59c83b67cf0a8901b904e3623eaac3a39c872359be8645e.jpg" for 127.0.0.1 at 2015-05-26 04:52:17 +0000
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.7ms)
+  Rendered layouts/_navbar.html.erb (0.0ms)
+Completed 200 OK in 359ms (Views: 359.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/font-awesome.self-2d17540bab3759939e910ca38a695f014e0c777ded3ad7a01c4658b9d3fc980d.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/application.self-145ee8be8055710573dccbd10caa16d5ef7278d1bb2a52a58b4947174aed99c0.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/devise.self-07c0e4e38c880e96593df3b8818a36409fe9ddbe0c318ca3ad19caa6a3ffb513.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/styles" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/styles.self-85e108089ea20d079fddee7df2f010caf92e0c89701a1e44f325c4cdcd0bc32d.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-5d0926785049650f548100e859a8846b4a915ce5593e7d2064211cf11b8cf211.css?body=1" for 127.0.0.1 at 2015-05-26 04:52:27 +0000
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 04:52:28 +0000
+
+
+Started GET "/assets/todolist-09f1f3a0af70a865b59c83b67cf0a8901b904e3623eaac3a39c872359be8645e.jpg" for 127.0.0.1 at 2015-05-26 04:52:28 +0000
